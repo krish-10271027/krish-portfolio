@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Krish Chaudhary | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">KRISH.</h2>
+
+            <button id="menuButton" class="menu-button" aria-label="Open navigation menu">
+                ☰
+            </button>
+
+            <ul id="navMenu" class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="themeButton" class="theme-button" aria-label="Toggle dark mode">
+                🌙
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="small-text">Hello, I'm</p>
+
+                <h1>KRISH CHAUDHARY</h1>
+
+                <h2>B.Sc. IT Student & Creative Learner</h2>
+
+                <p>
+                    I am a B.Sc. IT student from Gujarat who enjoys coding,
+                    photo editing, gaming, and learning new technologies.
+                </p>
+
+                <a href="#projects" class="button">View My Projects</a>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+
+            <div class="about-container">
+
+                <div class="profile-image">
+                    <img
+                        src="C:\Users\KRISH CHAUDHARY\Desktop\New folder (2)\gallery part 3\IMG_3380.JPG"
+                        alt="Profile placeholder for KRISH CHAUDHARY"
+                    >
+                </div>
+
+                <div class="about-text">
+                    <p>
+                        My name is Krish Chaudhary. I am a B.Sc. IT student
+                        interested in software development and modern
+                        technology.
+                    </p>
+
+                    <p>
+                        I enjoy creating websites, learning programming,
+                        editing photos and videos, and exploring new
+                        technology. I also enjoy gaming in my free time.
+                    </p>
+
+                    <p>
+                        My goal is to become a skilled software developer
+                        and build useful and creative digital solutions.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Creating structured and accessible web pages.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Designing attractive and responsive websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Adding interaction and functionality to websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>C++</h3>
+                    <p>Learning programming fundamentals and problem solving.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Photo Editing</h3>
+                    <p>Creating creative edits and visual content.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Video Editing</h3>
+                    <p>Creating and editing short-form video content.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+
+            <div class="projects-container">
+
+                <article class="project-card">
+                    <h3>Student Registration Form</h3>
+
+                    <p>
+                        A student registration form created using HTML
+                        with input validation and accessibility features.
+                    </p>
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </article>
+
+                <article class="project-card">
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A responsive personal portfolio website built
+                        using HTML, CSS, and JavaScript.
+                    </p>
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </article>
+
+                <article class="project-card">
+                    <h3>C++ Practice Programs</h3>
+
+                    <p>
+                        Basic C++ programs created while learning arrays,
+                        searching, loops, and programming logic.
+                    </p>
+
+                    <span>C++</span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+
+            <form id="contactForm">
+
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="button">
+                    Send Message
+                </button>
+
+            </form>
+
+            <p id="formMessage" class="form-message"></p>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © <span id="year"></span> Krish Chaudhary. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
